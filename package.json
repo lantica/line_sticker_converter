@@ -1,0 +1,9 @@
+{
+  "name": "line_sticker_converter",
+  "version": "1.0.0",
+  "main": "convert.js",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.25.4"
+  }
+}
