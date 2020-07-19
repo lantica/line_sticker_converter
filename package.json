@@ -1,17 +1,11 @@
 {
-  "scripts": {
-    "build": "tsc "
-  },
   "name": "line_sticker_converter",
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^14.0.23",
-    "@types/sharp": "^0.25.0",
+    "axios": "^0.19.2",
     "sharp": "^0.25.4",
-    "typescript": "^3.9.7"
+    "unzipper": "^0.10.11"
   },
-  "devDependencies": {
-    "pkg": "^4.4.9"
-  }
+  "devDependencies": {}
 }
