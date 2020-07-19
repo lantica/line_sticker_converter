@@ -6,6 +6,7 @@ converting line sticker to telegram sticker format
 Clone the repo and then run 
 ```
 yarn
-yarn build
-node dist/convert.js ${path of line sticker} ${output directory}
+node convert.js stickerpackId outputDir
 ```
+
+If outputDir is not provided, current working directory will be used.
