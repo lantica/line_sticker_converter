@@ -40,13 +40,11 @@ const regex = /^[0-9]{1,}@2x.png$/g;
         const im = await sharp(path.resolve(unzippedPath, sticker))
             .resize(512, 512, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
             .toBuffer()
-            .catch(console.error);
         const filePath = path.resolve(outputPath, `${path.parse(sticker).name}_512.png`);
         await sharp(im)
             .sharpen()
             .png()
             .toFile(filePath)
-            .catch(console.error);
     });
 })().catch(console.error);
 

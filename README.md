@@ -1,6 +1,6 @@
 # line sticker converter
 converting line sticker to telegram sticker format
- 
+   
 ## Usage 
 
 Clone the repo and then run 
