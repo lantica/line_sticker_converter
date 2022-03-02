@@ -1,12 +1,26 @@
 {
-  "name": "line_sticker_converter",
-  "version": "1.0.0",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.26.0",
-    "sharp": "^0.30.1",
-    "unzipper": "^0.10.11"
-  },
-  "type": "module",
-  "devDependencies": {}
+    "name": "line_sticker_converter",
+    "version": "1.0.1",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "sharp": "^0.30.1",
+        "unzipper": "^0.10.11"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "printWidth": 120
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
+    "type": "module",
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "prettier": "^2.5.1",
+        "pretty-quick": "^3.1.3"
+    }
 }
