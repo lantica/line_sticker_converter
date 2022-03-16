@@ -7,11 +7,10 @@ import axios from "axios";
 import os from "os";
 import { Transform } from "stream";
 
-const nameRegex = /^[0-9]{1,}@2x.png$/g;
+const nameRegex = /^[0-9]{1,}@2x.png$/;
 
-if (process.argv.length < 3) throw new Error("No path is provided");
 const packId = process.argv[2];
-if (!/^[0-9]{1,}/g.test(packId)) throw new Error("Invalid pack id");
+if (!/^[0-9]{1,}/.test(packId)) throw new Error("Invalid pack id");
 const url = `https://stickershop.line-scdn.net/stickershop/v1/product/${packId}/iphone/stickers@2x.zip`;
 const { data } = await axios({
     method: "get",
