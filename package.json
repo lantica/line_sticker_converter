@@ -1,6 +1,6 @@
 {
     "name": "line_sticker_converter",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.26.0",
