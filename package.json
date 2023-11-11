@@ -3,7 +3,7 @@
     "version": "1.0.4",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.26.0",
+        "axios": "^1.6.0",
         "sharp": "^0.30.5",
         "unzipper": "^0.10.11"
     },
